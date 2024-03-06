@@ -37,14 +37,14 @@ const Description = () => {
             viewport={{ once: true }}
           >
             <p className="pt-3 text-sm leading-6 text-gray-light lg:text-[0.95rem]">
-              Développeur web, j'ai réalisé plusieurs projet dans le cadre d'une formation OpenClassroom.
+              Développeur web, j&apos;ai réalisé plusieurs projet dans le cadre d&apos;une formation OpenClassroom.
               Je suis familiarisé avec certaines technologies front-end telles que Javascript, React ou encore Redux.
             </p>
             <p className="pt-3 text-sm leading-6 text-gray-light lg:text-[0.95rem]">
               Mes projets sont présentés ici et leurs codes et disponibles si vous êtes curieux de savoir de quoi je suis capable.
             </p>
             <p className="pt-3 text-sm leading-6 text-gray-light lg:text-[0.95rem]">
-              Conception de site, création de maquette, choix technologique ou encore optimisation de performance : n'hésitez pas à me contacter si vous avez un projet prévu ou en cours.
+              Conception de site, création de maquette, choix technologique ou encore optimisation de performance : n&apos;hésitez pas à me contacter si vous avez un projet prévu ou en cours.
             </p>
           </motion.div>
         </div>
