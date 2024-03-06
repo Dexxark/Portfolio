@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": "Kasa",
+    "description": "Refonte complète du site. Sa conception devait se faire nécessairement en JavaScript via React, avec Node.js pour le côté back-end. Les maquettes étaient fournies, l'objectif étant que le site final y ressemble, en y ajoutant des animations",
+    "skill": "Compétences : Javascript, React, NodeJs, Sass",
+    "github": "https://github.com/Dexxark/OC-P8",
+    "img": "img/project/Kasa.png"
+  },
+  {
+    "id": "2",
+    "title": "ArgentBank",
+    "description": "Mise en place d'un système d'authentification d'utilisateur avec possibilité de modifier certaines de ces informations. De plus, avec l'aide de swagger, il était demander de créer d'éventuels endpoint pour de futurs besoin",
+    "skill": "Compétences : Javascript, Redux, React, MongoDb",
+    "github": "https://github.com/Dexxark/OC-P11",
+    "img": "img/project/ArgentBank.png"
+  }
+]
