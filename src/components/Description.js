@@ -11,22 +11,22 @@ const Description = () => {
           className="m-auto h-auto rounded-[3px] object-cover md:m-0"
           initial={{ opacity: 0, y: 150 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2 }}
+          transition={{ duration: 0.25 }}
           viewport={{ once: true }}
         />
         <div className="content-about">
           <motion.h1
             className="pb-3 pt-12 text-[2.3rem] md:pb-3 md:pt-3 md:text-[2rem] lg:text-[2.5rem]"
-            initial={{ opacity: 0, y: 150 }}
+            initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
+            transition={{ duration: 0.5, delay: 0.25 }}
             viewport={{ once: true }}
           >
             Je suis Mathieu Etcheverry
           </motion.h1>
 
           <motion.div
-            initial={{ opacity: 0, y: 150 }}
+            initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.25 }}
             viewport={{ once: true }}

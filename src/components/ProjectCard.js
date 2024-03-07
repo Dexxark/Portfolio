@@ -2,11 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const ProjectCard = ({ img, title, description, skill, github, id }) => {
-  const animationProject = {
-    initial: {
-      opacity: 0,
-      y: 70,
-    },
+  const animation = {
     animate: (id) => ({
       y: 0,
       opacity: 1,
@@ -19,8 +15,8 @@ const ProjectCard = ({ img, title, description, skill, github, id }) => {
 
   return (
     <motion.div
-      variants={animationProject}
-      initial="initial"
+      variants={animation}
+      initial={{ opacity: 0, y: 100 }}
       whileInView="animate"
       custom={id}
       viewport={{ once: true }}
