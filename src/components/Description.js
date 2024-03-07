@@ -1,14 +1,9 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { motion } from "framer-motion";
 
 const Description = () => {
   return (
-    <section
-      data-section
-      id="description"
-      className=" m-auto -my-20 px-5 pb-12 pt-6 md:px-6 md:py-14 lg:-my-24 lg:max-w-[1160px] lg:px-12 lg:py-24"
-    >
+    <header id="description" className=" m-auto -my-20 px-5 pb-12 pt-6 md:px-6 md:py-14 lg:-my-24 lg:max-w-[1160px] lg:px-12 lg:py-24">
       <div className="my-24 md:flex md:gap-8 lg:my-32 lg:gap-12">
         <motion.img
           src="/img/description.jpg"
@@ -36,20 +31,20 @@ const Description = () => {
             transition={{ duration: 0.5, delay: 0.25 }}
             viewport={{ once: true }}
           >
-            <p className="pt-3 text-sm leading-6 text-gray-light lg:text-[0.95rem]">
+            <p className="pt-3 text-sm leading-6 text-gray-dark lg:text-[1rem]">
               Développeur web, j&apos;ai réalisé plusieurs projet dans le cadre d&apos;une formation OpenClassroom.
               Je suis familiarisé avec certaines technologies front-end telles que Javascript, React ou encore Redux.
             </p>
-            <p className="pt-3 text-sm leading-6 text-gray-light lg:text-[0.95rem]">
+            <p className="pt-3 text-sm leading-6 text-gray-dark lg:text-[1rem]">
               Mes projets sont présentés ici et leurs codes et disponibles si vous êtes curieux de savoir de quoi je suis capable.
             </p>
-            <p className="pt-3 text-sm leading-6 text-gray-light lg:text-[0.95rem]">
+            <p className="pt-3 text-sm leading-6 text-gray-dark lg:text-[1rem]">
               Conception de site, création de maquette, choix technologique ou encore optimisation de performance : n&apos;hésitez pas à me contacter si vous avez un projet prévu ou en cours.
             </p>
           </motion.div>
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 

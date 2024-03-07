@@ -7,22 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        kaushan: ["var(--font-kaushan)"],
-        poppins: ["var(--font-poppins)"],
-      },
       colors: {
         "gray-global": "#444444",
         "gray-dark": "#292929",
         "gray-light": "#999",
         "off-white": "#fafafa",
-      },
-      backgroundImage: {
-        "banner-img": "url('/img/bg_header.webp')",
-        "bg-black": "url('/img/bg_black.png')",
-      },
-      boxShadow: {
-        "2xl": "0 25px 50px 0 rgba(0, 0, 0, 0.045)",
       },
     },
   },

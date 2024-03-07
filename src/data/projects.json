@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "title": "Kasa",
+    "description": "Refonte complète du site. Sa conception devait se faire nécessairement en JavaScript via React, avec Node.js pour le côté back-end. Le résultat devait être conforme aux maquettes fournies, en y ajoutant des animations",
+    "skill": "Javascript, React, NodeJs, Sass",
+    "github": "https://github.com/Dexxark/OC-P8",
+    "img": "img/project/Kasa.png"
+  },
+  {
+    "id": "2",
+    "title": "ArgentBank",
+    "description": "Mise en place d'un système d'authentification d'utilisateur avec possibilité de modifier certaines de ces informations. De plus, avec l'aide de swagger, il était demander de créer d'éventuels endpoint pour de futurs besoin",
+    "skill": "Javascript, Redux, React, MongoDb",
+    "github": "https://github.com/Dexxark/OC-P11",
+    "img": "img/project/ArgentBank.png"
+  },
+  {
+    "id": "3",
+    "title": "724Events",
+    "description": "Débogage d'un site à l'aide de test unitaires. Il fallait reprendre le code d'un ancien développpeur pour terminer les fonctionnalités à implanter et corriger les erreurs. Mis en place d'un cahier de tests fonctionnels",
+    "skill": "Javascript, React, Tests unitaires",
+    "github": "https://github.com/Dexxark/OC-724Events",
+    "img": "img/project/724Events.png"
+  },
+  {
+    "id": "4",
+    "title": "Nina Carducci",
+    "description": "Optimisation des performance d'un site, amélioration du référencement via les moteurs de recherche. Il était aussi nécessaire d'alléger les images en modifiant leur extension. Ajout de métas pour les réseaux sociaux.",
+    "skill": "Javascript, Optimisation",
+    "github": "https://github.com/Dexxark/OC-P9",
+    "img": "img/project/NinaCarducci.png"
+  }
+]
