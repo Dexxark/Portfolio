@@ -16,7 +16,7 @@ const Skills = () => {
   };
 
   return (
-    <section id="skills" className=" m-auto -my-20 bg-gray-global px-5 py-14 text-black brightness-[1.5] md:py-20 lg:-my-24">
+    <section id="skills" className=" m-auto -my-20 bg-mygray px-5 py-14 brightness-[1.5] md:py-20 lg:-my-24">
       <h2 className="mb-[30px] mt-4 text-center text-white text-[2.5rem] blur-[0.5px] lg:text-[2.8rem]">
         Mes compétences
       </h2>

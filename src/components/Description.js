@@ -8,7 +8,7 @@ const Description = () => {
         <motion.img
           src="/img/description.jpg"
           alt="image lambda"
-          className="m-auto h-auto rounded-[3px] object-cover md:m-0"
+          className="m-auto h-auto object-cover md:m-0"
           initial={{ opacity: 0, y: 150 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.25 }}

@@ -19,26 +19,23 @@ const Navbar = () => {
           )}
         </div>
         <ul
-          className={`absolute right-0 -z-10 w-full bg-off-white pt-8 font-medium uppercase tracking-widest text-gray-dark transition-all duration-500 ease-in lg:static lg:z-auto lg:flex lg:w-auto lg:items-center lg:gap-10 lg:bg-transparent lg:pt-0 lg:text-[0.9rem]
-          ${
-            open
-              ? "translate-x-0 text-center opacity-100 shadow-2xl"
-              : "translate-x-full text-center lg:translate-x-0 "
+          className={`absolute right-0 w-full bg-off-white pt-8 font-medium tracking-widest text-gray-dark lg:static lg:flex lg:w-auto lg:items-center lg:gap-10 lg:bg-transparent lg:pt-0 ${
+            open ? "translate-x-0 text-center opacity-100 shadow-2xl" : "translate-x-full text-center lg:translate-x-0 "
           }`}
         >
           <li className="mb-6 mx-8 lg:mb-0 lg:mx-0">
             <a href="#description" >
-              Description
+              DESCRIPTION
             </a>
           </li>
           <li className="mb-6 mx-8 lg:mb-0 lg:mx-0">
             <a href="#skills" >
-              Compétences
+              COMPETENCES
             </a>
           </li>
           <li className="mb-6 mx-8 lg:mb-0 lg:mx-0">
             <a href="#projects" >
-              Projets
+              PROJETS
             </a>
           </li>
         </ul>

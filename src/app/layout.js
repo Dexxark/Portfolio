@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
       </head>
-      <body className={`overflow-x-hidden bg-off-white text-gray-global`} >
+      <body className={`overflow-x-hidden bg-off-white text-mygray`} >
         <main>{children}</main>
       </body>
     </html>
