@@ -11,7 +11,7 @@ const Description = () => {
           className="m-auto h-auto object-cover md:m-0"
           initial={{ opacity: 0, y: 150 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.25 }}
+          transition={{ duration: 0.15 }}
           viewport={{ once: true }}
         />
         <div className="content-about">
