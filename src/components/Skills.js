@@ -29,7 +29,6 @@ const Skills = () => {
               whileInView="animate"
               custom={id}
               initial={{ opacity: 0, y: 100 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
             >
               <div className="h-full w-full text-center">
